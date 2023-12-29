@@ -1,0 +1,14 @@
+---
+
+logger_level: "debug"
+listen:
+  bind_ip: "127.0.0.1"
+  port: "6001"
+jwt:
+  secret: "$c0ur$ew0rK$"
+postgres:
+  host: "127.0.0.1"
+  port: "5432"
+  username: "s338986"
+  password: "wwIia55SK4yQOcG4"
+  database: "studs"
