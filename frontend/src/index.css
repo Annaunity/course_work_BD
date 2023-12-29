@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap');
+
+:root {
+  --primary1: #255C84;
+  --primary2: #f1f3f5;
+}
+
+* {
+  font-family: 'Scada', sans-serif;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background: url("https://img.freepik.com/free-vector/gradient-purple-wavy-background_52683-74031.jpg") no-repeat center center; */
+  background-size: cover;
+
+  /* background: linear-gradient(45deg, #ffbe3c 0%, #7c3aed 100%); */
+
+  background-color: #fddaef;
+  background-color: var(--primary2);
+  /* background-color: #f7f7f7; */
+
+  /* background: linear-gradient(to bottom, #bb9af5, #ffe482, #bb9af5); */
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 340px) {
+  html {
+      font-size: 12px;
+  }
+} 
+
+.p-toast {
+  width: 300px !important;
+  opacity: 1 !important;
+  color: #383838 !important;
+}
+
+.p-toast-message {
+  background-color: #bbf482 !important;
+  border-radius: 12px !important;
+  color: #383838 !important;
+  box-shadow: 0 0.03em 0.5em rgb(0 0 0 / 30%) !important;
+  border: none !important;
+}
+.p-toast-message .p-toast-message-icon,
+.p-toast-message .p-toast-icon-close {
+  color: #66c10b !important;
+}
+.p-toast .p-toast-message .p-toast-icon-close:focus {
+  box-shadow: 0 0 0 0.2rem rgb(166, 238, 93);
+}
+
+.p-toast-message-error {
+  background-color: #ff758c !important;
+}
+.p-toast-message-error .p-toast-message-icon,
+.p-toast-message-error .p-toast-icon-close {
+  color: #ff3f55 !important;
+}
+.p-toast .p-toast-message-error .p-toast-icon-close:focus {
+  box-shadow: 0 0 0 0.2rem #ff6476;
+}
